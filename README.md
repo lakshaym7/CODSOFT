@@ -1,8 +1,23 @@
 # CODSOFT
 
-## Task 1 - Chatbot
+## Task 1 - CHATBOT WITH RULE-BASED RESPONSES
+A basic implementation of a rule-based chatbot using Python. The chatbot can respond to a variety of user inputs with predefined responses. It uses a simple matching algorithm to determine the best response based on the user's message.
 
-## Task 2 - 
+Features
+  - Predefined Responses: The chatbot provides specific responses to common questions and phrases.
+  - Keyword Matching: The chatbot uses keyword matching to determine the most appropriate response.
+  - Fallback Response: If the chatbot cannot understand the user's input, it provides a generic fallback response.
+  - Randomized Fallbacks: The fallback responses are randomized for a more dynamic interaction.
+
+How It Works
+  - Response Definitions: Predefined responses are stored in the longResponses.py file.
+  - Message Processing: User messages are processed in main.py to determine the best response.  
+  - Probability Calculation: The chatbot calculates the probability of each predefined response being the correct one based on the keywords present in the user's message.
+  - Response Selection: The chatbot selects the response with the highest probability.
+  - User Interaction: The chatbot interacts with the user in a loop, continuously taking user input and providing responses.
+
+
+## Task 2 - TIC-TAC-TOE AI
 A Python implementation of the classic Tic-Tac-Toe game, featuring an AI opponent powered by the Minimax algorithm. The game is designed for two players: one human and one AI. The AI uses the Minimax algorithm to make optimal moves, ensuring a challenging and engaging gameplay experience.
 
 Features
@@ -30,4 +45,18 @@ Code Overview
   - findBestMove: Finds the best move for the AI using the Minimax algorithm.
   - playGame: The main function to start and play the game.
 
-## Task 3 - 
+
+## Task 3 - RECOMMENDATION SYSTEM
+A simple movie recommendation system built using Python and machine learning techniques. The system uses a TF-IDF vectorizer to process movie overviews and calculates cosine similarity to recommend movies based on their content.
+
+Features
+  - Content-Based Filtering: Recommends movies based on the similarity of their overviews.
+  - TF-IDF Vectorization: Converts movie overviews into numerical vectors using TF-IDF.
+  - Cosine Similarity: Measures the similarity between movie vectors to find the most similar movies.
+  - Top 10 Recommendations: Provides the top 10 most similar movies for a given input movie.
+
+How It Works
+  - Data Loading: The movie dataset is loaded from a CSV file.
+  - Text Processing: Movie overviews are processed and converted into TF-IDF vectors.
+  - Similarity Calculation: Cosine similarity is calculated between all movie vectors.
+  - Recommendation: The system recommends the top 10 movies similar to the input movie based on cosine similarity.
