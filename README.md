@@ -6,11 +6,11 @@
 A Python implementation of the classic Tic-Tac-Toe game, featuring an AI opponent powered by the Minimax algorithm. The game is designed for two players: one human and one AI. The AI uses the Minimax algorithm to make optimal moves, ensuring a challenging and engaging gameplay experience.
 
 Features
-  Human vs AI Gameplay: Play against a computer opponent that uses the Minimax algorithm to make decisions.
-  Dynamic Board Printing: The game board is printed dynamically after each move, allowing players to see the current state of the game.
-  Winner Detection: The game checks for a winner after each move and declares the winner if any.
-  Draw Detection: The game detects when the board is full and declares a draw if there is no winner.
-  Input Validation: The game validates the human player's input to ensure valid moves.
+  - Human vs AI Gameplay: Play against a computer opponent that uses the Minimax algorithm to make decisions.
+  - Dynamic Board Printing: The game board is printed dynamically after each move, allowing players to see the current state of the game.
+  - Winner Detection: The game checks for a winner after each move and declares the winner if any.
+  - Draw Detection: The game detects when the board is full and declares a draw if there is no winner.
+  - Input Validation: The game validates the human player's input to ensure valid moves.
   
 How It Works
   Board Initialization: The game starts with an empty 3x3 board.
